@@ -15,3 +15,16 @@ OUTPUT:
  
  OUTPUT:
   {1: 10, 2: 20, 3: 30}
+
+#difference between == and is in python3
+>>>a = [1,2,3]
+>>>b = [1,2,3]
+>>>a == b
+True
+>>>a is b
+False
+>>>c = a
+>>>c == a
+True
+>>>a is c 
+True
