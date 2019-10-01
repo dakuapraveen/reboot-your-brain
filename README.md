@@ -52,3 +52,9 @@ OUTPUT:
   
   ------------------------------------------------------------------
   
+>>>min(False, 0)
+>>>False
+
+# min() comparing False with 0 and as False is consider 0 but first in occurrence here result False
+  
+--------------------------------------------------------------------------------------------------------
