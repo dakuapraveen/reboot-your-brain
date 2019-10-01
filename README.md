@@ -29,3 +29,26 @@ False
 True
 >>>a is c 
 True
+
+-----------------------------------------------------------------
+#How to invert a dictionary
+# (how to change key and values)
+
+data = {
+  "alpha": "a",
+  "beta": "b",
+  "gamma": "c"
+}
+# Using dictionary comprehensing
+new_data = {
+   value: key for key, value \
+        in data.item()
+}
+
+print(new_data)
+
+OUTPUT:
+  {"a": "alpha", "b": "beta", "c": "gamma"}
+  
+  ------------------------------------------------------------------
+  
